@@ -1,0 +1,42 @@
+/*
+Each page should have some CSS. The minimal requirements are:
+
+    H1 elements should be centered
+
+    Images should be centered
+
+    Paragraphs can be centered, but do not have to be
+
+    The color of the text should be different on each page.
+
+    The background color of each page should be different.
+*/
+h1 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: blueviolet   
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-height: 600px;
+    width: auto;
+}
+
+.current-skills {
+    background-color: #fdf6e3; 
+    color: green
+}
+.technical-goals {
+    background-color: #e0f2e9; 
+    color:brown
+}
+.professional-goals{
+    background-color: #ece1f5; 
+    color:teal;
+}
+body{
+    max-width: 800px;
+    margin: auto;
+}
